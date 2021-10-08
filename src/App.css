@@ -1,0 +1,552 @@
+* {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: UglyBye;
+  src: url("./assets/font/UglyByteFreeTrial-K7EBZ.otf");
+}
+
+* {
+  margin: 0px;
+}
+img.stick {
+  position: relative;
+  left: -175px;
+}
+
+.welcome {
+  padding-top: 50px !important;
+}
+
+.main {
+  background-image: url("./assets/image/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /* height: 100px;; */
+}
+
+.container {
+  /* margin: auto 0; */
+  max-width: 1920px;
+  height: 1080px;
+}
+.image1,
+.text1 {
+  padding-top: 46px;
+  text-align: center;
+}
+
+.section_one {
+  height: 1000px;
+  background-image: url("./assets/image/sec2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section_two {
+  height: 1080px;
+  background-image: url("./assets/image/Slice 6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section_four {
+  padding-top: 20px;
+  height: 1160px;
+  background-image: url("./assets/image/back4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section_three {
+  height: 1000px;
+  background-image: url("./assets/image/back3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-five {
+  height: 1923px;
+  background-image: url("./assets/image/tower.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -853px;
+}
+
+.section-seven {
+  height: 2160px;
+  background-image: url("./assets/image/back7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin-top: -853px; */
+}
+
+.section_six {
+  height: 1080px;
+  background-image: url("./assets/image/jar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin-top: -853px; */
+}
+.section_eight {
+  height: 1080px;
+  background-image: url("./assets/image/aeroplane.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section_nine {
+  height: 1080px;
+  background-image: url("./assets/image/moon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section_team {
+  height: 1080px;
+  background-image: url("./assets/image/team.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.inn_one p {
+  font-family: "UglyBye";
+  font-size: 98px;
+  text-transform: capitalize;
+}
+
+.four img {
+  position: relative;
+  top: 407px;
+  left: 100px;
+}
+.inn_one {
+  text-align: left;
+}
+
+.inn_two p {
+  font-size: 19px;
+}
+
+.form,
+.seven_row {
+  width: 1450px;
+}
+.seven_row {
+  width: 1450px;
+  text-align: center;
+}
+
+form .three {
+  padding: 20px;
+  width: 163px;
+  height: 80px;
+  border-radius: 9px;
+  border: 3px solid white;
+  background: linear-gradient(28deg, #89eaed, #ffffff);
+  color: black !important;
+  font-size: 45px;
+  font-family: "UglyBye";
+}
+
+form .three::placeholder {
+  color: black !important;
+  font-size: 45px;
+  font-family: "UglyBye";
+}
+form .mint {
+  width: 163px;
+  height: 80px;
+  border-radius: 9px;
+  border: 3px solid rgb(236, 84, 160);
+  background-color: rgb(243, 83, 163);
+  color: white !important;
+  font-size: 45px;
+  font-family: "UglyBye";
+}
+
+.featured {
+  letter-spacing: 14px;
+  margin: auto;
+  position: relative;
+  color: white !important;
+  font-size: 98px;
+  font-family: "UglyBye";
+  font-weight: 700;
+
+  top: 636px;
+}
+.lorem {
+  /* padding-top: 50px; */
+  letter-spacing: 14px;
+  font-size: 38px;
+  font-family: "UglyBye";
+  font-weight: 700;
+  color: black;
+}
+.team {
+  padding-top: 60px;
+  letter-spacing: 14px;
+  text-align: center;
+  color: white !important;
+  font-size: 98px;
+  font-family: "UglyBye";
+  font-weight: 700;
+}
+.row.lorem_row {
+  margin-top: 180px;
+}
+.road {
+  padding-top: 50px;
+  letter-spacing: 14px;
+  font-size: 98px;
+  font-family: "UglyBye";
+  font-weight: 700;
+  color: black;
+}
+
+.count p {
+  vertical-align: middle;
+  /* text-align: center; */
+  color: black !important;
+  font-size: 45px;
+  font-family: "UglyBye";
+  font-weight: 700;
+}
+.count .eth {
+  color: rgb(236, 84, 160);
+}
+
+.inner_one {
+  position: relative;
+  top: 456px;
+}
+
+.eye {
+  right: 6%;
+  position: absolute;
+  bottom: 0;
+}
+.mul_col {
+  margin: auto;
+  text-align: center;
+}
+
+.circle,
+.bomb,
+.speaker {
+  text-align: center;
+}
+
+.bomb {
+  padding-top: 92px;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+/* Media Queries */
+
+.disk {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 0.7s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+.particle img {
+  -webkit-animation: mover2 1s infinite alternate;
+  animation: mover2 1s infinite alternate;
+}
+@-webkit-keyframes mover2 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover2 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.cam {
+  -webkit-animation: mover2 1s infinite alternate;
+  animation: mover3 1s infinite alternate;
+}
+@-webkit-keyframes mover3 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover3 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .particle img {
+    width: 100%;
+  }
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .image1 img {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .text1 img {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    height: 100%;
+  }
+  .inn_two p {
+    font-size: 12px !important;
+  }
+
+  .featured {
+    padding: 20px;
+    margin: initial;
+    font-size: 47px;
+  }
+  .cam img {
+    width: 100%;
+  }
+  .eye {
+    position: relative;
+    width: 100%;
+
+    top: 174px;
+  }
+
+  .mul_col img {
+    width: 100%;
+  }
+
+  .section_three {
+    height: 100%;
+  }
+  .three-image img {
+    width: 100%;
+  }
+  .section-five {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-top: -300px;
+  }
+  .seven_row {
+    width: 100%;
+  }
+  .section_six,
+  .section_three {
+    height: 100%;
+  }
+
+  .four img {
+    position: initial;
+    width: 50% !important;
+  }
+  .circle img {
+    position: relative;
+    top: -300px;
+    width: 50%;
+  }
+
+  .speaker img,
+  .bomb img {
+    width: 100%;
+  }
+  .road {
+    font-size: 40px;
+  }
+  .lorem {
+    font-size: 40px;
+  }
+
+  .row.lorem_row {
+    margin-top: 10px;
+  }
+
+  .section_nine {
+    /* background-size: contain; */
+    height: 200px;
+  }
+
+  .member {
+    width: 33%;
+  }
+
+  .member img {
+    width: 100px;
+  }
+  img.stick {
+    top: -199px;
+    position: relative;
+    left: 0px;
+  }
+}
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .image1 img {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .text1 img {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    height: 100%;
+  }
+  .inn_two p {
+    font-size: 12px !important;
+  }
+
+  .featured {
+    padding: 20px;
+    margin: initial;
+    font-size: 47px;
+  }
+  .cam img {
+    width: 100%;
+  }
+  .eye {
+    position: relative;
+    width: 100%;
+    top: 444px !important;
+  }
+
+  .mul_col img {
+    width: 100%;
+  }
+
+  .section_three {
+    height: 100%;
+  }
+  .three-image img {
+    width: 100%;
+  }
+  .section-five {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-top: -300px;
+  }
+  .seven_row {
+    width: 100%;
+  }
+  .section_six,
+  .section_three {
+    height: 100%;
+  }
+
+  .four img {
+    position: initial;
+    width: 50% !important;
+  }
+  .circle img {
+    position: relative;
+    top: -432px;
+    width: 19%;
+  }
+
+  .speaker img,
+  .bomb img {
+    width: 100%;
+  }
+  .road {
+    font-size: 40px;
+  }
+  .lorem {
+    font-size: 40px;
+  }
+
+  .row.lorem_row {
+    margin-top: 10px;
+  }
+
+  /* .section_nine {
+  
+          height: 200px;
+      } */
+
+  .member {
+    width: 33%;
+  }
+
+  .member img {
+    width: 100px;
+  }
+
+  .nipple img {
+    position: relative;
+    left: -213px;
+    top: 100px;
+  }
+
+  .section_two {
+    height: 700px;
+  }
+  .section_eight {
+    background-position: initial;
+  }
+}
