@@ -255,26 +255,36 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-/* Media Queries */
+
+img.stick {
+  position: absolute;
+  left: 292px;
+  top: 100px;
+  width: 50%;
+}
 
 .disk {
-  -webkit-animation: mover 1s infinite alternate;
-  animation: mover 0.7s infinite alternate;
+  position: absolute;
+  top: 90px;
+  width: 378px;
+  left: 55px;
+  -webkit-animation: mover 20s infinite forwards;
+  animation: mover 20s infinite forwards;
 }
 @-webkit-keyframes mover {
-  0% {
-    transform: translateX(0);
+  from {
+    transform: rotate(0deg);
   }
-  100% {
-    transform: translateX(-10px);
+  to {
+    transform: rotate(360deg);
   }
 }
 @keyframes mover {
-  0% {
-    transform: translateX(0);
+  from {
+    transform: rotate(0deg);
   }
-  100% {
-    transform: translateX(-10px);
+  to {
+    transform: rotate(360deg);
   }
 }
 
@@ -446,7 +456,7 @@ body {
   }
 
   .image1 img {
-    width: 100%;
+    width: 50%;
     padding-top: 30px;
   }
   .text1 img {
@@ -465,18 +475,28 @@ body {
     padding: 20px;
     margin: initial;
     font-size: 47px;
+    top: 326px;
   }
   .cam img {
     width: 100%;
   }
   .eye {
     position: relative;
-    width: 100%;
-    top: 444px !important;
+    width: 66%;
+    top: -150px !important;
+    right: 40%;
   }
 
   .mul_col img {
     width: 100%;
+  }
+
+  .section_one {
+    height: 650px;
+  }
+
+  .inner_one {
+    top: 296px;
   }
 
   .section_three {
@@ -509,9 +529,26 @@ body {
     width: 19%;
   }
 
-  .speaker img,
+  .speaker {
+    padding-top: 40px;
+    padding-bottom: 45px;
+  }
+  .speaker div {
+    background-image: url("./assets/image/vinyl-disc-resize.png") !important;
+  }
+
+  img.stick {
+    top: 90px;
+    width: 30%;
+    left: 206px;
+  }
+
+  /* .speaker img, */
   .bomb img {
-    width: 100%;
+    width: 55%;
+  }
+  .bomb {
+    padding-top: 70px;
   }
   .road {
     font-size: 40px;
@@ -524,10 +561,14 @@ body {
     margin-top: 10px;
   }
 
-  /* .section_nine {
-  
-          height: 200px;
-      } */
+  .section_nine {
+    height: 700px;
+  }
+  .disk {
+    top: 81px;
+    width: 250px;
+    left: 52px;
+  }
 
   .member {
     width: 33%;
@@ -544,9 +585,44 @@ body {
   }
 
   .section_two {
-    height: 700px;
+    height: 600px;
   }
   .section_eight {
     background-position: initial;
+    height: 624px;
+  }
+  .section_eight .container {
+    max-width: 800px;
+  }
+  .section-seven {
+    height: 1300px;
+  }
+
+  .section_team {
+    height: 780px;
+  }
+}
+@media (max-width: 768px) {
+  .section_two {
+    height: 560px;
+  }
+
+  .cam img {
+    position: relative;
+    top: 60px;
+    right: 30px;
+  }
+
+  .eye {
+    position: relative;
+    width: 75%;
+    top: -200px !important;
+    right: 50%;
+  }
+
+  .form .mint,
+  .form .three {
+    width: 150px;
+    height: 74px;
   }
 }

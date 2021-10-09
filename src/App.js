@@ -19,7 +19,9 @@ import Nipple from "./assets/image/nipple.png";
 import Four_4 from "./assets/image/four4.png";
 import Circle from "./assets/image/circle.png";
 // Section Six
-import Disk from "./assets/image/vinyl-disc.png";
+import Disk from "./assets/image/vinyl-disc-removebg-preview-modified.png";
+
+import BackDisk from "./assets/image/vinyl-disc.png";
 import Stick from "./assets/image/vinyl-stick.png";
 // Section Eight
 import Bomb from "./assets/image/bomb.png";
@@ -154,8 +156,19 @@ function App() {
       <div className="section_six">
         <div className="container">
           <div className="speaker">
-            <img src={Disk} alt="" className="disk" />
-            <img src={Stick} alt="" className="stick" />
+            <div
+              style={{
+                width: "507px",
+                height: "550px",
+                backgroundImage: `url(${BackDisk})`,
+                backgroundRepeat: "no-repeat",
+                margin: "auto",
+                position: "relative",
+              }}
+            >
+              <img src={Disk} alt="" className="disk" />
+              <img src={Stick} alt="" className="stick" />
+            </div>
           </div>
         </div>
       </div>
