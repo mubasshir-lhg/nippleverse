@@ -6,7 +6,10 @@
   font-family: UglyBye;
   src: url("./assets/font/UglyByteFreeTrial-K7EBZ.otf");
 }
-
+@font-face {
+  font-family: Pixelar;
+  src: url("./assets/font/Pixelar.TTF");
+}
 * {
   margin: 0px;
 }
@@ -255,6 +258,9 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+.main .text1 h2 {
+  display: none;
+}
 
 img.stick {
   position: absolute;
@@ -328,6 +334,12 @@ img.stick {
     transform: translateY(-10px);
   }
 }
+.mob , header{
+  display: none;
+}
+.menu {
+  display: none;
+}
 
 /* 
 ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -335,6 +347,114 @@ img.stick {
 */
 
 @media (min-width: 320px) and (max-width: 767px) {
+  header {
+    background: #12FED9;
+    padding: 30px 30px;
+}
+
+header .col6 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    margin: 0;
+    padding: 0 0 0 50px;
+}
+
+header ul li {
+    list-style: none;
+    border: 1px solid #0006;
+    margin: 0 7px;
+    border-radius: 30px;
+    padding: 10px 0px;
+}
+
+.menu.fixed-header {
+  left: 0;
+}a.closee {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  color: #fff;
+  font-size: 26px;
+}
+.menu {
+  width: 70%;
+  height: 100vh;
+  position: fixed;
+  background: #280362;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: -100%;
+  display: flex;
+  transition: all 0.5s ease;
+}
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul > div ,.menu ul > li {
+  width: 100%;
+  flex: 0 0 100%;
+  border: 0;
+
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.menu li {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  padding: 14px 0;
+}
+
+.menu li a {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.menu .logo a {
+  font-size: 40px;
+  color: #fff;
+}
+
+.menu .logo {
+  text-align: center;
+  padding: 0 0 70px 0;
+}
+header ul li a {
+    width: 100%;
+    padding: 20px 10px;
+}
+
+header .col6:first-child {
+    width: 30%;
+}
+
+header .col6:last-child {
+    width: 70%;
+}
+  .main .container .image1:nth-child(2) {
+    height: 240px;
+    padding: 0;
+  }
+  .main .container .image1:nth-child(2) img {
+   height: 100%;
+   object-fit: cover;
+  }
   .particle img {
     width: 100%;
   }
@@ -352,13 +472,154 @@ img.stick {
     width: 100%;
     padding-bottom: 50px;
   }
+  .main .text1 {
+    color: #fff;
+    font-family: 'UglyBye';
+    padding: 30px 0 200px 0;
+  }
+  .inner_one {
+    top: 0;
+    background-image: url('./assets/image/bg-shap.png');
+    background-size: contain;
+    background-position: center;
+    padding: 130px 10px 30px 10px;
+  }
+  form .three {
+    background-image: url('./assets/image/input.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none !important;
+    margin-right: 20px;
+  }
+  form .mint {
+    background-image: url('./assets/image/inputbutton.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none !important;
+    margin-right: 20px;
+  }
+  .section-seven{
+    background-image: url('./assets/image/roadmap.png');
+    background-size: 100% 100%;
+    height: 800px;
+    width: 100%;
+  }
+  .section_eight {
+    height: 270px;
+    position: relative;
+}
+  .section-seven .lorem_row .col-md-6 {
+    width: 50%;
+    padding: 0;
+}
+.section_eight img.mob {position: absolute;top: 110px;left: 0;right: 0;margin: auto;}
 
+.section_eight {
+    position: relative;
+}
+
+.section_team .member {
+    width: 16%;
+    padding: 20px 10px 0 10px;
+}
+
+.section_team .member img {
+    width: 100%;
+}
+
+.section_team {
+    height: 420px;
+}
+
+.section-seven .lorem_row .col-md-6 p.lorem {
+    font-size: 25px;
+}
+
+  .section_two img.mob {
+    position: initial;
+    width: 70%;
+    margin: 80px auto 0 auto;
+    height: auto;
+}
+.cam img {
+    position: relative;
+    top: 60px;
+    right: 90px;
+    height: 190px;
+    object-fit: cover;
+}
+.nipple img {
+  width: 100%;
+  max-width: 29%;
+  position: absolute;
+  bottom: -169px;
+  left: 190px;
+}
+.three-image img.mob {
+  display: block !important;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 0 180px 0;
+}
+
+.four {
+  position: relative;
+}
+.featured {
+  display: none;
+}
+.comb img {
+  display: none;
+}
+
+.mul_col img {
+  display: none;
+}
+
+.three-image img {
+  display: none;
+}
+  .form_image_1 img.mob {
+    position: absolute;
+    top: -60px;
+    right: 75%;
+    width: 100%;
+    max-width: 13%;
+}
+  .mob , header{
+    display: block;
+  }
+  .main .text1 h2 {
+    display: block;
+    font-size: 41px;
+    line-height: 33px;
+    padding: 0 20px;
+}
+
+  .main .text1 p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 28px;
+    padding: 20px 0 0 0;
+  }
+  .section_one {
+    background-size: 0;
+    height: 640px;
+  }
+  .text1 img {
+      display: none;
+  }
   .container {
     height: 100%;
   }
   .inn_two p {
-    font-size: 12px !important;
-  }
+    font-size: 24px !important;
+    width: 26%;
+    font-family: sans-serif;
+    padding: 30px 0 20px 0;
+}
 
   .featured {
     padding: 20px;
@@ -400,18 +661,29 @@ img.stick {
   }
 
   .four img {
-    position: initial;
-    width: 50% !important;
-  }
-  .circle img {
-    position: relative;
-    top: -300px;
-    width: 50%;
-  }
-
+    position: absolute;
+    width: 92% !important;
+    top: 80px;
+    left: 20px;
+}
+.circle img {
+  position: relative;
+  top: 70px;
+  width: 20%;
+  padding: 160px 0;
+}
+.speaker > div {
+  width: 100% !important;
+  background-size: 0;
+  height: 0px !important;
+}
+.section_six img.mob {
+  width: 100%;
+}
   .speaker img,
   .bomb img {
     width: 100%;
+    display: none;
   }
   .road {
     font-size: 40px;

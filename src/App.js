@@ -4,25 +4,35 @@ import "./App.css";
 import Img1 from "./assets/image/img1.png";
 import Img2 from "./assets/image/img2.png";
 import Text1 from "./assets/image/text1.png";
+import toggle from "./assets/image/toggle.svg";
+import ridet from "./assets/image/ridet.svg";
+import Vector from "./assets/image/Vector.svg";
+import Union from "./assets/image/Union.svg";
 // Section One
 import Slice1 from "./assets/image/Slice 1.png";
+import oundshap from "./assets/image/ound-shap.png";
+import digitbg from "./assets/image/digitbg.png";
 // Section Two
 import Camera from "./assets/image/camera.png";
 import Particles from "./assets/image/Particles.png";
 import Eye from "./assets/image/3A 2.png";
+import Featured from "./assets/image/Featured.png";
 // Setion Three
 import Multiple from "./assets/image/multiple.png";
 // Section Four
 import _Mult from "./assets/image/3_mult.png";
 import Nipple from "./assets/image/nipple.png";
+import posts from "./assets/image/posts.png";
 // Section Five
 import Four_4 from "./assets/image/four4.png";
 import Circle from "./assets/image/circle.png";
 // Section Six
 import Disk from "./assets/image/vinyl-disc-removebg-preview-modified.png";
+import dj from "./assets/image/dj.png";
 
 import BackDisk from "./assets/image/vinyl-disc.png";
 import Stick from "./assets/image/vinyl-stick.png";
+import makec from "./assets/image/8c.png";
 // Section Eight
 import Bomb from "./assets/image/bomb.png";
 // Team Section
@@ -36,6 +46,40 @@ import Mem6 from "./assets/image/mem6.png";
 function App() {
   return (
     <div>
+      <header>
+         <div className="container">
+           <div className="row">
+              <div className="col6">
+                <div className="toggle">
+                <img src={toggle} alt="" />
+                </div>
+                <div className="menu">
+                  {/* <a href="javascript:void(0)" className="closee">X</a> */}
+                    <ul>
+                      <div className="logo">
+                        <a href="#">NippleVer</a>
+                        </div>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Featured</a></li>
+                      <li><a href="#">Roadmap</a></li>
+                      <li><a href="#">Team</a></li>
+                      <li><a href="#">Connect Wallet</a></li>
+                    </ul>
+
+                  </div>
+              </div>
+              <div className="col6">
+                <ul>
+                  <li><a href="#"><img src={ridet} alt="" /></a></li>
+                  <li><a href="#"><img src={Vector} alt="" /></a></li>
+                  <li><a href="#"><img src={Union} alt="" /></a></li>
+                </ul>
+                
+              </div>
+           </div>
+         </div>
+      </header>
+      
       <div className="main">
         <div className="container">
           <div className="image1    welcome">
@@ -46,18 +90,22 @@ function App() {
           </div>
           <div className="text1">
             <img src={Text1} alt="" />
+            <h2>The world has chastised them from public view.</h2>
+            <p>They belong to all of us yet we are ashamed of them because society taught us so. However their power is too hard to contain, they found refuge on the Ethereum blockchain and now they are ready to break free. With about 8.000.000.000 people in the world and only 4444 unique entitties, only a few will be able to claim they were brave enough to #freethenipple and wear them as badges of honour.</p>
           </div>
         </div>
       </div>
       {/* Header End  */}
       {/* section_one */}
       <div className="section_one">
+        <img className="mob" src={digitbg} alt="" />
         <div className="container  form">
           <div className="row">
             <div className="col-md-6   inner_one">
               <div className="form_image_1">
                 <div className="inn_one">
                   <img src={Slice1} alt="" />
+                  <img className="mob" src={oundshap} alt="" />
                 </div>
                 <div className="inn_two">
                   <p>
@@ -97,6 +145,7 @@ function App() {
           <div className="row">
             <div className="col-md-6">
               <div className="cam">
+              <img className="mob" src={Featured} alt="" />
                 <img src={Camera} alt="" />
               </div>
             </div>
@@ -132,6 +181,7 @@ function App() {
           <div className="col-md-6">
             <div className="three-image">
               <img src={_Mult} alt="" />
+              <img className="mob" src={posts} alt="" />
             </div>
             <div className="nipple">
               <img src={Nipple} alt="" />
@@ -154,6 +204,7 @@ function App() {
       {/* section_five_end */}
       {/* section_six */}
       <div className="section_six">
+      <img className="mob" src={dj} alt="" />
         <div className="container">
           <div className="speaker">
             <div
@@ -203,6 +254,7 @@ function App() {
       {/* section_eight */}
       <div className="section_eight">
         <div className="container">
+      <img className="mob" src={makec} alt="" />
           <div className="bomb">
             <img src={Bomb} alt="" />
           </div>
