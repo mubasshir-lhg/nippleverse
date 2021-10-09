@@ -57,22 +57,22 @@ function App() {
                   {/* <a href="javascript:void(0)" className="closee">X</a> */}
                     <ul>
                       <div className="logo">
-                        <a href="#">NippleVer</a>
+                        <a href="/">NippleVer</a>
                         </div>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Featured</a></li>
-                      <li><a href="#">Roadmap</a></li>
-                      <li><a href="#">Team</a></li>
-                      <li><a href="#">Connect Wallet</a></li>
+                      <li><a href="/">About</a></li>
+                      <li><a href="/">Featured</a></li>
+                      <li><a href="/">Roadmap</a></li>
+                      <li><a href="/">Team</a></li>
+                      <li><a href="/">Connect Wallet</a></li>
                     </ul>
 
                   </div>
               </div>
               <div className="col6">
                 <ul>
-                  <li><a href="#"><img src={ridet} alt="" /></a></li>
-                  <li><a href="#"><img src={Vector} alt="" /></a></li>
-                  <li><a href="#"><img src={Union} alt="" /></a></li>
+                  <li><a href="/"><img src={ridet} alt="" /></a></li>
+                  <li><a href="/"><img src={Vector} alt="" /></a></li>
+                  <li><a href="/"><img src={Union} alt="" /></a></li>
                 </ul>
                 
               </div>
